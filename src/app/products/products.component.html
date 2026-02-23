@@ -1,0 +1,32 @@
+<div class="products">
+  <div class="products-header">
+    <h2>Produtos</h2>
+    <button class="btn-primary">+ Novo Produto</button>
+  </div>
+
+  <div class="products-grid">
+    <div class="product-card" *ngFor="let product of products">
+      <div class="card-top">
+        <span class="category">{{ product.category }}</span>
+        <span
+          class="status"
+          [class.low]="product.quantity < 10"
+        >
+          {{ product.quantity < 10 ? 'Estoque baixo' : 'Em estoque' }}
+        </span>
+      </div>
+
+      <h3 class="name">{{ product.name }}</h3>
+      <p class="code">Código: {{ product.code }}</p>
+
+      <div class="card-bottom">
+        <div class="qty">
+          <span class="label">Quantidade</span>
+          <span class="value">{{ product.quantity }}</span>
+        </div>
+
+        <button class="btn-secondary">Detalhes</button>
+      </div>
+    </div>
+  </div>
+</div>

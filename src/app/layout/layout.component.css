@@ -1,0 +1,131 @@
+/* Layout base */
+.layout {
+  display: flex;
+  height: 100vh;
+  background-color: #f4f6f8;
+}
+
+/* Sidebar */
+.sidebar {
+  width: 240px;
+  background-color: #1f2937;
+  color: #fff;
+  padding: 24px 16px;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Logo */
+.logo {
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.logo-text {
+  display: block;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.logo-sub {
+  font-size: 12px;
+  color: #9ca3af;
+}
+
+/* Menu */
+.menu {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.menu-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 14px;
+  border-radius: 8px;
+  color: #cbd5e1;
+  text-decoration: none;
+  font-size: 14px;
+  transition: background 0.2s, color 0.2s;
+}
+
+.menu-item:hover {
+  background-color: #374151;
+  color: #fff;
+}
+
+.menu-item.active {
+  background-color: #2986dd;
+  color: #fff;
+}
+
+/* Content */
+.content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Topbar */
+.topbar {
+  height: 64px;
+  background-color: #ffffff;
+  border-bottom: 1px solid #e5e7eb;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 24px;
+}
+
+.page-title {
+  font-size: 16px;
+  font-weight: 600;
+  color: #1f2937;
+}
+
+/* Right topbar */
+.right {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.company {
+  font-size: 13px;
+  color: #6b7280;
+}
+
+/* User */
+.user {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.avatar {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background-color: #2986dd;
+  color: #fff;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.name {
+  font-size: 14px;
+  font-weight: 500;
+  color: #1f2937;
+}
+
+/* Page content */
+.page {
+  flex: 1;
+  padding: 24px;
+  overflow-y: auto;
+}

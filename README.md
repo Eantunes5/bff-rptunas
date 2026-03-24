@@ -1,59 +1,65 @@
-# rptunas
+# RPTunas - Sistema de Gestão de Estoque
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.1.2.
+O **RPTunas** é uma aplicação web desenvolvida em Angular com o objetivo de auxiliar no controle e gerenciamento de estoque de produtos, oferecendo uma interface moderna, intuitiva e organizada.
 
-## Development server
+---
 
-To start a local development server, run:
+## 📌 Funcionalidades
 
+-  Login de usuário
+-  Cadastro de novos usuários
+-  Dashboard com visão geral do sistema
+-  Listagem de produtos em formato de cards
+-  Gerenciamento de produtos (cadastro, edição e exclusão)
+-  Indicação de estoque baixo
+
+---
+
+## 🛠️ Tecnologias utilizadas
+
+- Angular
+- TypeScript
+- HTML5
+- CSS3
+- Node.js
+
+---
+
+## ▶️ Como executar o projeto
+
+### 1. Pré-requisitos
+
+Antes de iniciar, é necessário ter instalado:
+
+- Angular CLI
+- Node.js
+
+Instalar Angular CLI:
+
+```bash
+npm install -g @angular/cli
+```
+
+### 2. Clonar o repositório
+
+```bash
+git clone https://github.com/Eantunes5/bff-rptunas.git
+cd rptunas
+```
+
+### 3. Instalar dependências
+
+```bash
+npm install
+```
+
+#### 4. Executar o projeto
 ```bash
 ng serve
 ```
+A aplicação estará disponível em:
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+http://localhost:4200
+🔐 Acesso ao sistema
 
-## Code scaffolding
-
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
-
-```bash
-ng generate component component-name
-```
-
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
-
-```bash
-ng generate --help
-```
-
-## Building
-
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+É possível criar qualquer usuário para acessar o sistema, a autenticação fica salva localmente.

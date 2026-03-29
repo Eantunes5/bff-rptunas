@@ -43,7 +43,7 @@ npm install -g @angular/cli
 ### 2. Clonar o repositório
 
 ```bash
-git clone https://github.com/Eantunes5/bff-rptunas.git
+git clone https://github.com/Eantunes5/rptunas.git
 cd rptunas
 ```
 

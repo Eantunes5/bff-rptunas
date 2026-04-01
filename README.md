@@ -1,4 +1,4 @@
-# RPTunas - Sistema de Gestão de Estoque
+# RPTunas - Interface de gerenciamento de estoque
 
 O **RPTunas** é uma aplicação web desenvolvida em Angular com o objetivo de auxiliar no controle e gerenciamento de estoque de produtos, oferecendo uma interface moderna, intuitiva e organizada.
 
@@ -6,11 +6,11 @@ O **RPTunas** é uma aplicação web desenvolvida em Angular com o objetivo de a
 
 ## 📌 Funcionalidades
 
--  Login de usuário
--  Cadastro de novos usuários
+-  Login de usuário via localStorage
+-  Cadastro de novos usuários via localStorage
 -  Dashboard com visão geral do sistema
 -  Listagem de produtos em formato de cards
--  Gerenciamento de produtos (cadastro, edição e exclusão)
+-  Interface para gerenciamento de produtos (cadastro, edição e exclusão)
 -  Indicação de estoque baixo
 
 ---

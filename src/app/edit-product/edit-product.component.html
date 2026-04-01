@@ -1,0 +1,15 @@
+<div class="form-container">
+  <h2>Editar Produto</h2>
+
+  <input [(ngModel)]="produto.nome" placeholder="Nome" />
+  <input [(ngModel)]="produto.categoria" placeholder="Categoria" />
+  <input [(ngModel)]="produto.codigo" placeholder="Código" />
+  <input [(ngModel)]="produto.quantidade" type="number" placeholder="Quantidade" />
+
+  <div style="margin-top: 16px; display: flex; gap: 10px;">
+    <button class="btn-primary" (click)="salvar()">Salvar</button>
+    <button class="btn-secondary" (click)="voltar()">
+      Cancelar
+    </button>
+  </div>
+</div>

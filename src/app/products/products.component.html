@@ -1,7 +1,8 @@
 <div class="products">
   <div class="products-header">
-    <h2>Produtos</h2>
-    <button class="btn-primary">+ Novo Produto</button>
+    <button class="btn-primary" (click)="novoProduto()">
+      + Novo Produto
+    </button>
   </div>
 
   <div class="products-grid">
@@ -25,7 +26,12 @@
           <span class="value">{{ product.quantity }}</span>
         </div>
 
-        <button class="btn-secondary">Detalhes</button>
+        <button
+          class="btn-secondary"
+          (click)="verDetalhes(product.id)"
+        >
+          Detalhes
+        </button>
       </div>
     </div>
   </div>

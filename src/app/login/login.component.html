@@ -3,8 +3,8 @@
     <h2>RPTunas</h2>
     <p>Sistema de Estoque</p>
 
-    <input type="text" placeholder="Usuário">
-    <input type="password" placeholder="Senha">
+    <input type="email" [(ngModel)]="email" placeholder="Email">
+    <input type="password" [(ngModel)]="senha" placeholder="Senha">
 
     <button (click)="login()">Entrar</button>
 
